@@ -12,8 +12,8 @@ pip install -r requirements.txt
 Below are the software dependencies and package versions used in this project:
 ```
 Python: 3.6.13
-PyTorch: 1.7.1+cu110
-Torchvision: 0.8.2+cu110
+PyTorch: 1.7.1
+Torchvision: 0.8.2
 CUDA: 11.0
 CUDNN: 8005
 ```
