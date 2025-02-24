@@ -6,7 +6,8 @@ which was accepted at **PAKDD 2025**. The method is built upon [miro](https://gi
 ### Environments
 First, create and activate a virtual environment (optional but recommended):
 ```
-conda create -n dsbh python=3.6.13 conda activate dsbh
+conda create -n dsbh python=3.6.13
+conda activate dsbh
 ```
 
 Then, install the required packages:
