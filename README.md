@@ -4,13 +4,7 @@ which was accepted at **PAKDD 2025**. The method is built upon [miro](https://gi
 
 ## Preparation
 ### Environments
-First, create and activate a virtual environment (optional but recommended):
-```
-conda create -n dsbh python=3.8
-conda activate dsbh
-```
-
-Then, install the required packages:
+Install the required packages:
 ```
 pip install -r requirements.txt
 ```
