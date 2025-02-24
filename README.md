@@ -37,6 +37,6 @@ Our hyperparameters:
 | **λ_grad**         | 0.9   | 0.4   | 0.4       | 0.6     | 0.4       |
 | **λ_logit**        | 0.1   | 0.4   | 1.0       | 0.4     | 0.3       |
 
-### Main results
+## Main results
 Comparison with the existing domain generalization methods. The results are shown in accuracy (%), which are the average with three random seed runs.
 
