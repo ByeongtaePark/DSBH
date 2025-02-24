@@ -1,0 +1,5 @@
+test_batchsize: 32
+model: resnet50
+batch_size: 32
+grad_coef: 0.8
+logit_coef: 0.2
