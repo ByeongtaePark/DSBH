@@ -38,8 +38,8 @@ python train_all.py --data_dir /path/to/dataset --algorithm DSBH \
     --trial_seed 0
 ```
 
-Our hyperparameters:
 ## Hyperparameters
+The following hyperparameters had been used in the experiments:
 |                     | PACS  | VLCS  | OfficeHome | TerraIncognita | DomainNet |
 |-------------------- |------ |------ |-----------|--------------|-----------|
 | **Learning rate**   | 3e-5  | 8e-6  | 1e-5      | 3e-5         | 2e-5      |
@@ -51,5 +51,8 @@ Our hyperparameters:
 ## Main Results
 The following table presents a comparison of **DSBH** with existing domain generalization methods. 
 Results are reported as accuracy (%) and are averaged over three random seeds.
+
 ![Results](results.png)
+
+<img src="results.png" alt="Results" width="600">
 
