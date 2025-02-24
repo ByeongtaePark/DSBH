@@ -52,7 +52,5 @@ The following hyperparameters had been used in the experiments:
 The following table presents a comparison of **DSBH** with existing domain generalization methods. 
 Results are reported as accuracy (%) and are averaged over three random seeds.
 
-![Results](results.png)
-
-<img src="results.png" alt="Results" width="600">
+<img src="results.png" alt="Results" width="700">
 
