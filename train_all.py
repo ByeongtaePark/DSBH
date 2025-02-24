@@ -20,8 +20,6 @@ from domainbed.trainer import train
 
 def main():
     parser = argparse.ArgumentParser(description="Domain generalization", allow_abbrev=False)
-    # parser.add_argument("name", type=str)
-    # parser.add_argument("configs", nargs="*")
     parser.add_argument("--data_dir", type=str, default="datadir/")
     parser.add_argument("--dataset", type=str, default="PACS")
     parser.add_argument("--algorithm", type=str, default="DSBH")
@@ -44,20 +42,13 @@ def main():
     # setup hparams
     hparams = hparams_registry.default_hparams(args.algorithm, args.dataset)
 
-    # keys = ["config.yaml"] + args.configs
     keys = ["config.yaml"]
     keys = [open(key, encoding="utf8") for key in keys]
     hparams = Config(*keys, default=hparams)
     hparams.argv_update(left_argv)
 
-    # # setup debug
-    # if args.debug:
-    #     args.checkpoint_freq = 5
-    #     args.steps = 10
-    #     args.name += "_debug"
 
     timestamp = misc.timestamp()
-    # args.unique_name = f"{timestamp}_{args.name}"
     args.unique_name = f"{timestamp}"
 
     # path setup
@@ -141,7 +132,7 @@ def main():
             test_env,
             args=args,
             hparams=hparams,
-            n_steps=100,
+            n_steps=n_steps,
             checkpoint_freq=checkpoint_freq,
             logger=logger,
             writer=writer,
