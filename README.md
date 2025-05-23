@@ -1,4 +1,4 @@
-# Dynamic Spuriosity Bias Harmonizer (PAKDD 2025)
+# [PAKDD'25] Dynamic Spuriosity Bias Harmonizer
 This repository provides the official implementation of **Dynamic Spuriosity Bias Harmonizer (DSBH)**, 
 which was accepted at **PAKDD 2025**. The method is built upon [miro](https://github.com/khanrc/miro).
 
@@ -52,3 +52,7 @@ Results are reported as accuracy (%) and are averaged over three random seeds.
 
 <img src="results.png" alt="Results" width="700">
 
+## Citation
+```
+TBD
+```
